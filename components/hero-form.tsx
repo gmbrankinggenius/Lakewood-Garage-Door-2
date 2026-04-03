@@ -56,7 +56,7 @@ export function HeroForm() {
               id="phone" 
               required
               className="w-full bg-slate-950 border border-slate-800 text-white rounded-md px-4 py-3 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500 transition-colors placeholder:text-slate-600"
-              placeholder="(555) 123-4567"
+              placeholder="(562) 784-4156"
             />
           </div>
 

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { PhoneCall, ShieldCheck, Clock, Wrench, ChevronRight, Star, CheckCircle2, MapPin, Mail, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import { FAQSection } from '@/components/faq-section';
@@ -25,7 +26,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2">
             <div className="relative w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0">
               <Image 
                 src="https://drive.google.com/uc?export=view&id=1JZsO-FqhGCVaE2HNW6CBQZjVAYGHYy1d" 
@@ -40,17 +41,18 @@ export default function Home() {
               <span className="font-heading font-bold text-xl leading-none text-white tracking-tight">LAKEWOOD</span>
               <span className="text-[10px] font-bold text-orange-500 tracking-widest uppercase">Garage Door Experts</span>
             </div>
-          </div>
+          </Link>
           <div className="hidden md:flex items-center gap-8 font-medium text-sm">
+            <Link href="/" className="hover:text-orange-500 transition-colors">Home</Link>
             <a href="#services" className="hover:text-orange-500 transition-colors">Services</a>
-            <a href="#why-us" className="hover:text-orange-500 transition-colors">Why Us</a>
-            <a href="#faq" className="hover:text-orange-500 transition-colors">FAQ</a>
+            <Link href="/about" className="hover:text-orange-500 transition-colors">About</Link>
+            <Link href="/contact" className="hover:text-orange-500 transition-colors">Contact</Link>
             <a href="#reviews" className="hover:text-orange-500 transition-colors">Reviews</a>
           </div>
           <div className="flex items-center gap-4">
-            <a href="tel:555-0123" className="hidden lg:flex items-center gap-2 font-heading font-bold text-lg text-white hover:text-orange-400 transition-colors">
+            <a href="tel:562-784-4156" className="hidden lg:flex items-center gap-2 font-heading font-bold text-lg text-white hover:text-orange-400 transition-colors">
               <PhoneCall className="w-5 h-5 text-orange-500" />
-              (555) 123-4567
+              (562) 784-4156
             </a>
             <a href="#contact" className="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2.5 rounded-md font-medium transition-all shadow-[0_0_20px_rgba(249,115,22,0.2)] hover:shadow-[0_0_25px_rgba(249,115,22,0.4)] flex items-center gap-2">
               Get a Quote
@@ -96,9 +98,9 @@ export default function Home() {
                 Broken spring? Door won&apos;t open? We provide 24/7 emergency repair, installation, and maintenance in Lakewood. Expert technicians at your door in 60 minutes or less.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                <a href="tel:555-0123" className="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-md font-bold text-lg transition-all shadow-[0_0_20px_rgba(249,115,22,0.3)] hover:shadow-[0_0_30px_rgba(249,115,22,0.5)] flex items-center justify-center gap-2">
+                <a href="tel:562-784-4156" className="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-md font-bold text-lg transition-all shadow-[0_0_20px_rgba(249,115,22,0.3)] hover:shadow-[0_0_30px_rgba(249,115,22,0.5)] flex items-center justify-center gap-2">
                   <PhoneCall className="w-5 h-5" />
-                  Call (555) 123-4567
+                  Call (562) 784-4156
                 </a>
                 <a href="#services" className="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 px-8 py-4 rounded-md font-medium text-lg transition-all flex items-center justify-center gap-2">
                   View Services <ArrowRight className="w-5 h-5" />
@@ -223,9 +225,9 @@ export default function Home() {
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-white mb-6">Need Your Garage Door Fixed Today?</h2>
           <p className="text-orange-100 text-lg mb-10 max-w-2xl mx-auto">Don&apos;t let a broken garage door ruin your day. Our Lakewood experts are ready to help right now.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="tel:555-0123" className="w-full sm:w-auto bg-slate-950 hover:bg-slate-900 text-white px-8 py-4 rounded-md font-bold text-lg transition-all flex items-center justify-center gap-2">
+            <a href="tel:562-784-4156" className="w-full sm:w-auto bg-slate-950 hover:bg-slate-900 text-white px-8 py-4 rounded-md font-bold text-lg transition-all flex items-center justify-center gap-2">
               <PhoneCall className="w-5 h-5 text-orange-500" />
-              Call (555) 123-4567
+              Call (562) 784-4156
             </a>
           </div>
         </div>
@@ -263,14 +265,13 @@ export default function Home() {
             </div>
             
             <div>
-              <h4 className="text-white font-bold mb-6">Services</h4>
+              <h4 className="text-white font-bold mb-6">Company</h4>
               <ul className="space-y-3 text-slate-400">
-                <li><a href="#" className="hover:text-orange-500 transition-colors">Garage Door Repair</a></li>
-                <li><a href="#" className="hover:text-orange-500 transition-colors">Spring Replacement</a></li>
-                <li><a href="#" className="hover:text-orange-500 transition-colors">Opener Installation</a></li>
-                <li><a href="#" className="hover:text-orange-500 transition-colors">Cable Repair</a></li>
-                <li><a href="#" className="hover:text-orange-500 transition-colors">Panel Replacement</a></li>
-                <li><a href="#" className="hover:text-orange-500 transition-colors">Maintenance</a></li>
+                <li><Link href="/" className="hover:text-orange-500 transition-colors">Home</Link></li>
+                <li><Link href="/about" className="hover:text-orange-500 transition-colors">About Us</Link></li>
+                <li><Link href="/contact" className="hover:text-orange-500 transition-colors">Contact Us</Link></li>
+                <li><a href="#services" className="hover:text-orange-500 transition-colors">Our Services</a></li>
+                <li><a href="#reviews" className="hover:text-orange-500 transition-colors">Customer Reviews</a></li>
               </ul>
             </div>
 
@@ -295,7 +296,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-center gap-3">
                   <PhoneCall className="w-5 h-5 text-orange-500 flex-shrink-0" />
-                  <a href="tel:555-0123" className="hover:text-orange-500">(555) 123-4567</a>
+                  <a href="tel:562-784-4156" className="hover:text-orange-500">(562) 784-4156</a>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-orange-500 flex-shrink-0" />
