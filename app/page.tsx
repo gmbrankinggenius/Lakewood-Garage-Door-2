@@ -28,11 +28,12 @@ export default function Home() {
           <div className="flex items-center gap-2">
             <div className="relative w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0">
               <Image 
-                src="/logo.jpg" 
+                src="https://drive.google.com/uc?export=view&id=1JZsO-FqhGCVaE2HNW6CBQZjVAYGHYy1d" 
                 alt="Lakewood Garage Door Repair Experts Logo" 
                 fill 
                 className="object-contain"
                 priority
+                referrerPolicy="no-referrer"
               />
             </div>
             <div className="flex flex-col hidden sm:flex">
@@ -60,13 +61,19 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative pt-20 pb-32 overflow-hidden">
-        {/* Abstract Background */}
+        {/* Image Background */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-slate-950/90 z-10"></div>
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-[30rem] h-[30rem] bg-orange-600/5 rounded-full blur-3xl"></div>
-          {/* Hexagon pattern overlay */}
-          <div className="absolute inset-0 opacity-[0.03] bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOCIgaGVpZ2h0PSI0OSIgdmlld0JveD0iMCAwIDI4IDQ5Ij48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMy45OSAxMS4yTDE0IDEwLjE5bC0xMS45OS02LjlMMiA0LjI4djE0LjI0bDEyIDYuOTRsMTItNi45NFY0LjI4bC0uMDEtLjk5TDEzLjk5IDExLjJ6TTAgMjIuNTJsMTMuOTkgOC4wOEwyOCAyMi41MnYtMTguNkwxMy45OS00LjA4IDAgMy45MnYxOC42em0xMy45OSAxOS42TDE0IDQxLjExbC0xMS45OS02LjlMMiAzNS4ydjE0LjI0bDEyIDYuOTRsMTItNi45NFYzNS4ybC0uMDEtLjk5TDEzLjk5IDQyLjF6TTAgNTMuNDRsMTMuOTkgOC4wOEwyOCA1My40NHYtMTguNkwxMy45OSAyNi44NCAwIDM0Ljg0djE4LjZ6IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9IjEiLz48L2c+PC9zdmc+')]"></div>
+          <Image
+            src="https://drive.google.com/uc?export=view&id=14PPT44sg7et9nIt8zKMLZbOPHBBb7-6O"
+            alt="Garage Door Hero Background"
+            fill
+            className="object-cover"
+            priority
+            referrerPolicy="no-referrer"
+          />
+          <div className="absolute inset-0 bg-slate-950/80 z-10"></div>
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-orange-500/20 rounded-full blur-3xl z-10"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-[30rem] h-[30rem] bg-orange-600/10 rounded-full blur-3xl z-10"></div>
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
@@ -232,10 +239,11 @@ export default function Home() {
               <div className="flex items-center gap-2 mb-6">
                 <div className="relative w-16 h-16 flex-shrink-0">
                   <Image 
-                    src="/logo.jpg" 
+                    src="https://drive.google.com/uc?export=view&id=1JZsO-FqhGCVaE2HNW6CBQZjVAYGHYy1d" 
                     alt="Lakewood Garage Door Repair Experts Logo" 
                     fill 
                     className="object-contain"
+                    referrerPolicy="no-referrer"
                   />
                 </div>
                 <span className="font-heading font-bold text-xl text-white tracking-tight">LAKEWOOD</span>
