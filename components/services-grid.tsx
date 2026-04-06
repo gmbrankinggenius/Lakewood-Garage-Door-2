@@ -1,35 +1,42 @@
 import { Wrench, Settings, ShieldAlert, RefreshCw, Zap, Home } from 'lucide-react';
+import Link from 'next/link';
 
 const services = [
   {
     title: 'Spring Replacement',
     description: 'Torsion and extension springs replaced safely and quickly. We use high-cycle springs for maximum durability.',
     icon: RefreshCw,
+    link: '/services/spring-replacement'
   },
   {
     title: 'Opener Repair & Install',
     description: 'Fixing unresponsive motors, chain/belt issues, and installing smart, quiet garage door openers.',
     icon: Zap,
+    link: '/services/opener-repair'
   },
   {
     title: 'Cable Repair',
     description: 'Snapped or frayed cables are dangerous. Our techs safely replace them to restore balance to your door.',
     icon: Wrench,
+    link: '/services/cable-repair'
   },
   {
     title: 'Off-Track Doors',
     description: 'If your door has come off its tracks, do not force it. We realign and secure it to prevent further damage.',
     icon: ShieldAlert,
+    link: '/services/off-track-doors'
   },
   {
     title: 'Panel Replacement',
     description: 'Damaged a panel? We can often replace individual sections without needing a whole new door.',
     icon: Home,
+    link: '/services/panel-replacement'
   },
   {
     title: 'Routine Maintenance',
     description: 'Preventative tune-ups, lubrication, and safety inspections to keep your door running smoothly year-round.',
     icon: Settings,
+    link: '/services/routine-maintenance'
   },
 ];
 
@@ -54,9 +61,9 @@ export function ServicesGrid() {
               <p className="text-slate-400 leading-relaxed mb-6">
                 {service.description}
               </p>
-              <a href="#contact" className="inline-flex items-center text-sm font-bold text-orange-500 hover:text-orange-400 transition-colors">
+              <Link href={service.link} className="inline-flex items-center text-sm font-bold text-orange-500 hover:text-orange-400 transition-colors">
                 Learn More <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         );

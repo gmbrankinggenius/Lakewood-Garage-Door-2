@@ -4,21 +4,21 @@ import Image from 'next/image';
 const testimonials = [
   {
     name: 'Sarah Jenkins',
-    location: 'Lakewood, CO',
+    location: 'Lakewood, CA',
     text: 'My garage door spring snapped at 9 PM on a Friday. They were here within an hour and had it fixed before midnight. Incredible service and very professional.',
     rating: 5,
     image: 'https://picsum.photos/seed/sarah/100/100'
   },
   {
     name: 'Michael T.',
-    location: 'Golden, CO',
+    location: 'Long Beach, CA',
     text: 'Replaced my old noisy chain opener with a new ultra-quiet belt drive. The technician explained everything clearly and the price was exactly what was quoted.',
     rating: 5,
     image: 'https://picsum.photos/seed/michael/100/100'
   },
   {
     name: 'David R.',
-    location: 'Wheat Ridge, CO',
+    location: 'Bellflower, CA',
     text: 'Honest company. Another place told me I needed a whole new door. These guys came out, realigned the tracks, replaced a few rollers, and it works like new for a fraction of the cost.',
     rating: 5,
     image: 'https://picsum.photos/seed/david/100/100'
