@@ -120,7 +120,7 @@ export default function Home() {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden border border-slate-800 relative">
                 <Image 
-                  src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=800&auto=format&fit=crop" 
+                  src="https://drive.google.com/uc?export=view&id=14PPT44sg7et9nIt8zKMLZbOPHBBb7-6O" 
                   alt="Garage Door Repair Technician" 
                   fill 
                   className="object-cover"
