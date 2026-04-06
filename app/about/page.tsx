@@ -33,7 +33,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="aspect-video rounded-2xl overflow-hidden border border-slate-800 relative">
                 <Image 
-                  src="https://picsum.photos/seed/team/800/600" 
+                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800&auto=format&fit=crop" 
                   alt="Our Team" 
                   fill 
                   className="object-cover"

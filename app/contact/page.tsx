@@ -96,7 +96,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="aspect-[21/9] bg-slate-950 border border-slate-800 rounded-2xl flex items-center justify-center overflow-hidden relative">
             <Image 
-              src="https://picsum.photos/seed/map/1200/500" 
+              src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1200&auto=format&fit=crop" 
               alt="Map Location" 
               fill 
               className="object-cover opacity-50 grayscale"

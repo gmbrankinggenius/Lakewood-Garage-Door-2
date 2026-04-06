@@ -4,37 +4,37 @@ import Link from 'next/link';
 const services = [
   {
     title: 'Spring Replacement',
-    description: 'Torsion and extension springs replaced safely and quickly. We use high-cycle springs for maximum durability.',
+    description: 'Expert torsion and extension spring replacement in Lakewood. We use premium high-cycle springs (up to 20,000 cycles) for maximum durability and safety, ensuring your heavy garage door is perfectly balanced.',
     icon: RefreshCw,
     link: '/services/spring-replacement'
   },
   {
     title: 'Opener Repair & Install',
-    description: 'Fixing unresponsive motors, chain/belt issues, and installing smart, quiet garage door openers.',
+    description: 'Comprehensive repair for unresponsive motors, stripped gears, and sensor issues. We also install modern, ultra-quiet belt-drive and smart Wi-Fi enabled garage door openers from top brands like LiftMaster and Chamberlain.',
     icon: Zap,
     link: '/services/opener-repair'
   },
   {
     title: 'Cable Repair',
-    description: 'Snapped or frayed cables are dangerous. Our techs safely replace them to restore balance to your door.',
+    description: 'Snapped, frayed, or loose cables are a major safety hazard. Our certified technicians safely replace damaged cables with aircraft-grade steel cables to restore proper tension and prevent the door from falling.',
     icon: Wrench,
     link: '/services/cable-repair'
   },
   {
     title: 'Off-Track Doors',
-    description: 'If your door has come off its tracks, do not force it. We realign and secure it to prevent further damage.',
+    description: 'If your garage door is crooked or has come off its tracks, do not force it. We provide emergency realignment, track straightening, and roller replacement to secure your door and prevent further structural damage.',
     icon: ShieldAlert,
     link: '/services/off-track-doors'
   },
   {
     title: 'Panel Replacement',
-    description: 'Damaged a panel? We can often replace individual sections without needing a whole new door.',
+    description: 'Fix dented, cracked, or weather-damaged garage door panels without replacing the entire door. We offer cost-effective section replacements with precise color and style matching for seamless curb appeal.',
     icon: Home,
     link: '/services/panel-replacement'
   },
   {
     title: 'Routine Maintenance',
-    description: 'Preventative tune-ups, lubrication, and safety inspections to keep your door running smoothly year-round.',
+    description: 'Preventative tune-ups, professional lubrication, and comprehensive 25-point safety inspections. Regular maintenance extends the lifespan of your garage door system and prevents costly unexpected breakdowns.',
     icon: Settings,
     link: '/services/routine-maintenance'
   },
