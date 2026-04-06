@@ -1,3 +1,5 @@
+'use client';
+
 import { Wrench, Settings, ShieldAlert, RefreshCw, Zap, Home } from 'lucide-react';
 import Link from 'next/link';
 
