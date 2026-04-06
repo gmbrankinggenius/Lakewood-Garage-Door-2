@@ -58,10 +58,55 @@ export default function RoutineMaintenancePage() {
                 <a href="tel:562-784-4156" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md font-bold transition-all flex items-center justify-center gap-2">
                   <PhoneCall className="w-5 h-5" /> Call (562) 784-4156
                 </a>
-                <Link href="/contact" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-md font-medium transition-all flex items-center justify-center gap-2">
+                <Link href="/#contact" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-md font-medium transition-all flex items-center justify-center gap-2">
                   Schedule a Tune-Up <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-slate-900 border-t border-slate-800">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="font-heading text-3xl font-bold text-white mb-8 text-center">The Value of Preventative Maintenance</h2>
+          
+          <div className="space-y-8">
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">Why Annual Maintenance Matters</h3>
+              <p className="text-slate-300 mb-4 leading-relaxed">
+                Your garage door is likely the largest moving part of your home, often used multiple times a day. Just like a car, it requires regular tune-ups to function properly. Annual maintenance provides several key benefits:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 text-slate-300">
+                <li><strong>Prevents Costly Breakdowns:</strong> Catching a fraying cable or a wearing gear early costs significantly less than an emergency repair when the door gets stuck.</li>
+                <li><strong>Extends Lifespan:</strong> Proper lubrication and tension adjustments reduce strain on the opener motor and the springs, helping them last years longer.</li>
+                <li><strong>Ensures Safety:</strong> We test the auto-reverse sensors and force settings to ensure the door won&apos;t crush objects, pets, or people in its path.</li>
+                <li><strong>Reduces Noise:</strong> A well-lubricated and aligned door operates much more quietly, which is especially important if you have living spaces above or adjacent to the garage.</li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">Our 25-Point Inspection Checklist</h3>
+              <p className="text-slate-300 mb-4 leading-relaxed">
+                Our comprehensive tune-up leaves no stone unturned. Our technicians will perform a rigorous 25-point inspection, which includes:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 text-slate-300">
+                <li>Checking spring tension and balancing the door.</li>
+                <li>Inspecting lifting cables for wear and fraying.</li>
+                <li>Examining rollers, hinges, and bearings for damage.</li>
+                <li>Tightening all nuts, bolts, and lag screws.</li>
+                <li>Lubricating all moving parts with high-quality garage door spray.</li>
+                <li>Testing the photo-eye sensors and auto-reverse safety features.</li>
+                <li>Checking the weatherstripping and bottom seal.</li>
+                <li>Inspecting the opener motor, gears, and drive mechanism (chain/belt).</li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">DIY Maintenance Tips</h3>
+              <p className="text-slate-300 leading-relaxed">
+                While professional maintenance is recommended annually, there are things you can do between visits. Keep the tracks clean and free of debris (do NOT lubricate the tracks themselves, as this attracts dirt). You can also test the balance of your door by pulling the emergency release and lifting the door halfway; it should stay in place. If it falls or flies up, call us for a spring adjustment.
+              </p>
             </div>
           </div>
         </div>

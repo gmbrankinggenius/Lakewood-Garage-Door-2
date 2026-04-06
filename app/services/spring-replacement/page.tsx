@@ -58,10 +58,47 @@ export default function SpringReplacementPage() {
                 <a href="tel:562-784-4156" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md font-bold transition-all flex items-center justify-center gap-2">
                   <PhoneCall className="w-5 h-5" /> Call (562) 784-4156
                 </a>
-                <Link href="/contact" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-md font-medium transition-all flex items-center justify-center gap-2">
+                <Link href="/#contact" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-md font-medium transition-all flex items-center justify-center gap-2">
                   Get a Free Quote <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-slate-900 border-t border-slate-800">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="font-heading text-3xl font-bold text-white mb-8 text-center">Understanding Garage Door Springs</h2>
+          
+          <div className="space-y-8">
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">Torsion vs. Extension Springs</h3>
+              <p className="text-slate-300 mb-4 leading-relaxed">
+                Most residential garage doors use one of two types of spring systems:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 text-slate-300">
+                <li><strong>Torsion Springs:</strong> Located horizontally above the door opening. These are the most common and generally safer because if they break, they remain on the shaft. They provide a smoother operation and last longer.</li>
+                <li><strong>Extension Springs:</strong> Located on either side of the door, stretching along the horizontal tracks. When these break, they can fly off dangerously if safety cables aren&apos;t installed.</li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">Signs Your Spring is Broken</h3>
+              <ul className="list-disc pl-6 space-y-2 text-slate-300">
+                <li>You heard a loud &quot;bang&quot; from the garage (sounds like a gunshot or firecracker).</li>
+                <li>The garage door opens a few inches and stops.</li>
+                <li>The door feels incredibly heavy to lift manually.</li>
+                <li>You can see a visible gap (usually about 2 inches) in the spring above the door.</li>
+                <li>The door falls rapidly when closing instead of a controlled descent.</li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">Why You Shouldn&apos;t DIY Spring Repair</h3>
+              <p className="text-slate-300 leading-relaxed">
+                Garage door springs hold the entire weight of the door (often 150-300 lbs) under immense tension. Attempting to adjust or replace them without the proper winding bars, training, and safety equipment can result in severe injury, property damage, or even death. Our technicians are fully trained and insured to handle this dangerous task safely and efficiently.
+              </p>
             </div>
           </div>
         </div>

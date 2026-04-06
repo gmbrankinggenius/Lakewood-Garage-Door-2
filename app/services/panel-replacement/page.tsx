@@ -58,10 +58,51 @@ export default function PanelReplacementPage() {
                 <a href="tel:562-784-4156" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md font-bold transition-all flex items-center justify-center gap-2">
                   <PhoneCall className="w-5 h-5" /> Call (562) 784-4156
                 </a>
-                <Link href="/contact" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-md font-medium transition-all flex items-center justify-center gap-2">
+                <Link href="/#contact" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-md font-medium transition-all flex items-center justify-center gap-2">
                   Get a Free Quote <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-slate-900 border-t border-slate-800">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="font-heading text-3xl font-bold text-white mb-8 text-center">Panel Replacement vs. Door Replacement</h2>
+          
+          <div className="space-y-8">
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">When Can a Panel Be Replaced?</h3>
+              <p className="text-slate-300 mb-4 leading-relaxed">
+                Replacing a single panel is a great way to save money, but it&apos;s not always the right solution. Panel replacement is ideal when:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 text-slate-300">
+                <li>Only one or two panels are damaged (usually the bottom ones from minor vehicle impacts).</li>
+                <li>The rest of the door is in good condition and relatively new.</li>
+                <li>The manufacturer still produces that specific model and color.</li>
+                <li>The structural integrity of the track and spring system wasn&apos;t compromised by the impact.</li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">When Should You Replace the Whole Door?</h3>
+              <p className="text-slate-300 mb-4 leading-relaxed">
+                Sometimes, trying to save money with a panel replacement ends up costing more in the long run. You should consider a full door replacement if:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 text-slate-300">
+                <li>Three or more panels are damaged. The cost of multiple panels often equals or exceeds a new door.</li>
+                <li>The door is older than 10-15 years. Finding an exact match is difficult, and the new panel will look noticeably different due to fading on the old panels.</li>
+                <li>The door has severe rust, rot, or widespread structural issues.</li>
+                <li>You want to upgrade your home&apos;s curb appeal or improve energy efficiency with a modern, insulated door.</li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">The Replacement Process</h3>
+              <p className="text-slate-300 leading-relaxed">
+                To replace a panel, we first need the exact make, model, size, and color of your current door. Once the new panel arrives, our technicians will safely secure the door, remove the damaged section, and install the new one. We then reconnect the hinges, ensure the weatherstripping is tight, and test the door&apos;s balance to ensure the new panel hasn&apos;t affected the lifting mechanism.
+              </p>
             </div>
           </div>
         </div>

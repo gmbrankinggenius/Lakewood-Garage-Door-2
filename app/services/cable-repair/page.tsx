@@ -58,10 +58,45 @@ export default function CableRepairPage() {
                 <a href="tel:562-784-4156" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md font-bold transition-all flex items-center justify-center gap-2">
                   <PhoneCall className="w-5 h-5" /> Call (562) 784-4156
                 </a>
-                <Link href="/contact" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-md font-medium transition-all flex items-center justify-center gap-2">
+                <Link href="/#contact" className="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-md font-medium transition-all flex items-center justify-center gap-2">
                   Get a Free Quote <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-slate-900 border-t border-slate-800">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="font-heading text-3xl font-bold text-white mb-8 text-center">The Importance of Garage Door Cables</h2>
+          
+          <div className="space-y-8">
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">What Do Garage Door Cables Do?</h3>
+              <p className="text-slate-300 leading-relaxed">
+                Garage door cables work in tandem with the springs to safely lift and lower the heavy door. While the springs provide the tension and lifting power, the cables are the physical connection that pulls the door up. If a spring breaks, safety cables (on extension spring systems) prevent the spring from flying across the garage. If a lifting cable snaps, the door will become unbalanced, crooked, or completely stuck.
+              </p>
+            </div>
+
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">Signs of Cable Wear and Tear</h3>
+              <p className="text-slate-300 mb-4 leading-relaxed">
+                Catching cable issues early can prevent a catastrophic failure. Look out for these warning signs:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 text-slate-300">
+                <li><strong>Fraying:</strong> If you see individual wire strands breaking or fraying, the cable is nearing the end of its life.</li>
+                <li><strong>Rust and Corrosion:</strong> Rust weakens the steel, making it brittle and prone to snapping.</li>
+                <li><strong>Slack or Loose Cables:</strong> If the cables are hanging loosely when the door is open, the tension is incorrect.</li>
+                <li><strong>Uneven Door:</strong> If one side of the door sits higher than the other, a cable may have stretched or slipped off the drum.</li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">Our Cable Replacement Process</h3>
+              <p className="text-slate-300 leading-relaxed">
+                When we replace your cables, we don&apos;t just swap the wire. We inspect the entire lifting system. We check the bottom brackets for rust, ensure the cable drums are in good condition, and verify the spring tension is perfectly balanced. We always replace cables in pairs to ensure even lifting and prevent the older cable from snapping shortly after the repair.
+              </p>
             </div>
           </div>
         </div>
