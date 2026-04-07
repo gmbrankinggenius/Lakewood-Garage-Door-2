@@ -1,6 +1,5 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
-import { PhoneCall, ShieldCheck, Clock, Wrench, ChevronRight, Star, CheckCircle2, MapPin, Mail, ArrowRight } from 'lucide-react';
+import { PhoneCall, ShieldCheck, Star, CheckCircle2, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import { FAQSection } from '@/components/faq-section';
 import { ServicesGrid } from '@/components/services-grid';
@@ -159,7 +158,7 @@ export default function Home() {
               <li><strong>Uneven opening:</strong> Frayed or snapped cables cause the door to lift unevenly, creating a major safety hazard.</li>
             </ul>
             <p className="text-slate-400 text-lg leading-relaxed">
-              For safety reasons, homeowners should <em>never</em> attempt to replace garage door springs or cables themselves due to the extreme tension they hold. Always rely on a licensed, insured, and highly-rated local professional for <strong>emergency garage door repair services</strong>.
+              For safety reasons, homeowners should <em>never</em> attempt to replace garage door springs or cables themselves due to the extreme tension they hold. Always rely on a certified, insured, and highly-rated local professional for <strong>emergency garage door repair services</strong>.
             </p>
           </div>
         </div>

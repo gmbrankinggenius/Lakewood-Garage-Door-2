@@ -7,15 +7,33 @@ export function HeroForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission
-    setTimeout(() => {
+    
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      name: formData.get('name'),
+      phone: formData.get('phone'),
+      service: formData.get('service')
+    };
+
+    try {
+      await fetch("https://formsubmit.co/ajax/lakewoodgaragedoorrepairexpert@gmail.com", {
+        method: "POST",
+        headers: { 
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
       setIsSubmitting(false);
       setIsSubmitted(true);
       setTimeout(() => setIsSubmitted(false), 5000);
-    }, 1500);
+    } catch (error) {
+      console.error(error);
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -43,6 +61,7 @@ export function HeroForm() {
             <input 
               type="text" 
               id="name" 
+              name="name"
               required
               className="w-full bg-slate-950 border border-slate-800 text-white rounded-md px-4 py-3 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500 transition-colors placeholder:text-slate-600"
               placeholder="John Doe"
@@ -54,6 +73,7 @@ export function HeroForm() {
             <input 
               type="tel" 
               id="phone" 
+              name="phone"
               required
               className="w-full bg-slate-950 border border-slate-800 text-white rounded-md px-4 py-3 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500 transition-colors placeholder:text-slate-600"
               placeholder="(562) 784-4156"
@@ -64,6 +84,7 @@ export function HeroForm() {
             <label htmlFor="service" className="block text-sm font-medium text-slate-300 mb-1">Service Needed</label>
             <select 
               id="service" 
+              name="service"
               required
               defaultValue=""
               className="w-full bg-slate-950 border border-slate-800 text-white rounded-md px-4 py-3 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500 transition-colors appearance-none"

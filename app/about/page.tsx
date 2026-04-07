@@ -57,7 +57,7 @@ export default function AboutPage() {
                 <div className="flex items-start gap-3">
                   <ShieldCheck className="w-6 h-6 text-orange-500 flex-shrink-0" />
                   <div>
-                    <h4 className="text-white font-bold mb-1">Licensed</h4>
+                    <h4 className="text-white font-bold mb-1">Certified</h4>
                     <p className="text-xs text-slate-500">Fully bonded and insured for your protection.</p>
                   </div>
                 </div>

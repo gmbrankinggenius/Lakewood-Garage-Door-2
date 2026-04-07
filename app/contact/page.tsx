@@ -58,7 +58,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-white font-bold text-lg mb-1">Email Address</h4>
-                    <a href="mailto:service@lakewoodgaragedoors.com" className="text-slate-400 hover:text-orange-500 transition-colors">service@lakewoodgaragedoors.com</a>
+                    <a href="mailto:lakewoodgaragedoorrepairexpert@gmail.com" className="text-slate-400 hover:text-orange-500 transition-colors">lakewoodgaragedoorrepairexpert@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -75,10 +75,10 @@ export default function ContactPage() {
               <div className="mt-12 p-8 bg-slate-900 border border-slate-800 rounded-2xl">
                 <div className="flex items-center gap-3 mb-4">
                   <ShieldCheck className="w-6 h-6 text-orange-500" />
-                  <h4 className="text-white font-bold">Licensed & Insured</h4>
+                  <h4 className="text-white font-bold">Certified & Insured</h4>
                 </div>
                 <p className="text-sm text-slate-400 leading-relaxed">
-                  We are a fully licensed, bonded, and insured garage door repair company. Every technician undergoes rigorous background checks and continuous training to ensure the highest standards of safety and quality.
+                  We are a fully certified, bonded, and insured garage door repair company. Every technician undergoes rigorous background checks and continuous training to ensure the highest standards of safety and quality.
                 </p>
               </div>
             </div>

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { PhoneCall, MapPin, Mail, ArrowRight } from 'lucide-react';
+import { PhoneCall, MapPin, Mail } from 'lucide-react';
 import Image from 'next/image';
 
 export function Footer() {
@@ -69,7 +69,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-orange-500 flex-shrink-0" />
-                <a href="mailto:service@lakewoodgaragedoors.com" className="hover:text-orange-500">service@lakewoodgaragedoors.com</a>
+                <a href="mailto:lakewoodgaragedoorrepairexpert@gmail.com" className="hover:text-orange-500">lakewoodgaragedoorrepairexpert@gmail.com</a>
               </li>
             </ul>
           </div>

@@ -18,7 +18,7 @@ export function Navbar() {
             <span className="flex items-center gap-1 text-slate-400"><MapPin className="w-4 h-4 text-orange-500" /> Serving Lakewood, CA & Surrounding Areas</span>
           </div>
           <div className="flex items-center gap-4">
-            <span className="flex items-center gap-1 text-slate-400"><ShieldCheck className="w-4 h-4 text-orange-500" /> Licensed & Insured</span>
+            <span className="flex items-center gap-1 text-slate-400"><ShieldCheck className="w-4 h-4 text-orange-500" /> Certified & Insured</span>
           </div>
         </div>
       </div>
