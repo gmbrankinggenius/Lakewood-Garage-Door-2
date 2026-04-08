@@ -86,6 +86,24 @@ export function Footer() {
             referrerPolicy="no-referrer-when-downgrade"
           />
         </div>
+
+        {/* Service Areas */}
+        <div className="pt-8 border-t border-slate-800 mb-8">
+          <h4 className="text-white font-bold mb-4 text-sm uppercase tracking-wider">Areas We Serve</h4>
+          <div className="flex flex-wrap gap-3 text-sm">
+            <Link href="/service-areas/lakewood-ca" className="text-slate-400 hover:text-orange-500 transition-colors">Lakewood, CA</Link>
+            <span className="text-slate-700">|</span>
+            <Link href="/service-areas/lakewood-ca-90711" className="text-slate-400 hover:text-orange-500 transition-colors">Lakewood, CA 90711</Link>
+            <span className="text-slate-700">|</span>
+            <Link href="/service-areas/lakewood-ca-90712" className="text-slate-400 hover:text-orange-500 transition-colors">Lakewood, CA 90712</Link>
+            <span className="text-slate-700">|</span>
+            <Link href="/service-areas/lakewood-ca-90713" className="text-slate-400 hover:text-orange-500 transition-colors">Lakewood, CA 90713</Link>
+            <span className="text-slate-700">|</span>
+            <Link href="/service-areas/lakewood-ca-90714" className="text-slate-400 hover:text-orange-500 transition-colors">Lakewood, CA 90714</Link>
+            <span className="text-slate-700">|</span>
+            <Link href="/service-areas/lakewood-ca-90715" className="text-slate-400 hover:text-orange-500 transition-colors">Lakewood, CA 90715</Link>
+          </div>
+        </div>
         
         <div className="pt-8 border-t border-slate-800 text-center text-sm text-slate-500 flex flex-col md:flex-row justify-between items-center gap-4">
           <p>&copy; {new Date().getFullYear()} Lakewood Garage Door Repair Experts. All rights reserved.</p>
