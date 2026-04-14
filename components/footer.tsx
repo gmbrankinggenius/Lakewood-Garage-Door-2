@@ -61,7 +61,7 @@ export function Footer() {
             <ul className="space-y-4 text-sm text-slate-400">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" />
-                <span>1234 Repair Way, Suite 100<br/>Lakewood, CA 90712</span>
+                <span>5800 SOUTH STREET<br/>LAKEWOOD, CA 90713</span>
               </li>
               <li className="flex items-center gap-3">
                 <PhoneCall className="w-5 h-5 text-orange-500 flex-shrink-0" />

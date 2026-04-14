@@ -6,46 +6,46 @@ import Image from 'next/image';
 
 const services = [
   {
-    title: 'Spring Replacement',
-    description: 'Expert torsion and extension spring replacement in Lakewood. We use premium high-cycle springs (up to 20,000 cycles) for maximum durability and safety, ensuring your heavy garage door is perfectly balanced.',
+    title: 'Broken Spring Replacement',
+    description: 'Snapped spring? We provide same-day torsion and extension spring repair across Lakewood, CA. We install heavy-duty, high-cycle springs (rated for 20,000+ cycles) to safely balance your door and prevent future emergencies.',
     icon: RefreshCw,
     link: '/services/spring-replacement',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=800&auto=format&fit=crop'
+    image: 'https://picsum.photos/seed/garage-spring/800/600'
   },
   {
-    title: 'Opener Repair & Install',
-    description: 'Comprehensive repair for unresponsive motors, stripped gears, and sensor issues. We also install modern, ultra-quiet belt-drive and smart Wi-Fi enabled garage door openers from top brands like LiftMaster and Chamberlain.',
+    title: 'Opener Repair & Installation',
+    description: 'Motor humming but not moving? Our certified Lakewood technicians fix stripped gears, sensor alignments, and logic boards. We also install ultra-quiet, Wi-Fi-enabled LiftMaster and Chamberlain smart openers.',
     icon: Zap,
     link: '/services/opener-repair',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop'
+    image: 'https://picsum.photos/seed/garage-opener/800/600'
   },
   {
-    title: 'Cable Repair',
-    description: 'Snapped, frayed, or loose cables are a major safety hazard. Our certified technicians safely replace damaged cables with aircraft-grade steel cables to restore proper tension and prevent the door from falling.',
+    title: 'Emergency Cable Repair',
+    description: 'Frayed or snapped garage door cables are a severe safety hazard. We rapidly dispatch local experts to replace broken cables with aircraft-grade steel, restoring proper tension and keeping your Lakewood home secure.',
     icon: Wrench,
     link: '/services/cable-repair',
-    image: 'https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?q=80&w=800&auto=format&fit=crop'
+    image: 'https://picsum.photos/seed/steel-cable/800/600'
   },
   {
-    title: 'Off-Track Doors',
-    description: 'If your garage door is crooked or has come off its tracks, do not force it. We provide emergency realignment, track straightening, and roller replacement to secure your door and prevent further structural damage.',
+    title: 'Off-Track Door Realignment',
+    description: 'A crooked or jammed garage door requires immediate professional attention. We offer 24/7 emergency track straightening, roller replacement, and structural realignment for residential garage doors throughout the Lakewood area.',
     icon: ShieldAlert,
     link: '/services/off-track-doors',
-    image: 'https://images.unsplash.com/photo-1622473590773-f588134b6ce7?q=80&w=800&auto=format&fit=crop'
+    image: 'https://picsum.photos/seed/garage-track/800/600'
   },
   {
-    title: 'Panel Replacement',
-    description: 'Fix dented, cracked, or weather-damaged garage door panels without replacing the entire door. We offer cost-effective section replacements with precise color and style matching for seamless curb appeal.',
+    title: 'Panel & Section Replacement',
+    description: 'Fix dented, cracked, or crashed garage door panels without the cost of a full replacement. We source exact-match sections from major manufacturers to seamlessly restore your home\'s curb appeal and structural integrity.',
     icon: Home,
     link: '/services/panel-replacement',
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop'
+    image: 'https://picsum.photos/seed/garage-panel/800/600'
   },
   {
-    title: 'Routine Maintenance',
-    description: 'Preventative tune-ups, professional lubrication, and comprehensive 25-point safety inspections. Regular maintenance extends the lifespan of your garage door system and prevents costly unexpected breakdowns.',
+    title: 'Annual Tune-Up & Maintenance',
+    description: 'Prevent costly breakdowns with our comprehensive 25-point safety inspection. Our local service includes professional track lubrication, spring tension adjustment, and sensor testing to ensure your door operates smoothly year-round.',
     icon: Settings,
     link: '/services/routine-maintenance',
-    image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=800&auto=format&fit=crop'
+    image: 'https://picsum.photos/seed/maintenance/800/600'
   },
 ];
 

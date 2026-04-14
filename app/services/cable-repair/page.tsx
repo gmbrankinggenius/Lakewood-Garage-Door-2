@@ -4,21 +4,44 @@ import Link from 'next/link';
 import { PhoneCall, ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Cable Repair | Lakewood Garage Door Repair Experts',
-  description: 'Fast and safe garage door cable repair in Lakewood, CA. Don\'t risk injury with snapped cables, call our experts for immediate service.',
+  title: 'Emergency Garage Door Cable Repair in Lakewood, CA',
+  description: 'Snapped or frayed garage door cables? We offer 24/7 emergency cable replacement in Lakewood, CA using aircraft-grade steel. Fast, safe, and reliable.',
+  keywords: ['garage door cable repair Lakewood', 'snapped garage door cable', 'fix garage door wire', 'Lakewood CA cable replacement', 'garage door off track cable'],
 };
 
 export default function CableRepairPage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Garage Door Cable Repair",
+    "provider": {
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Lakewood Garage Door Repair Experts",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lakewood",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      }
+    },
+    "description": "Fast and safe garage door cable repair in Lakewood, CA. We replace snapped or frayed cables with aircraft-grade steel.",
+    "areaServed": "Lakewood, CA"
+  };
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-300 font-sans selection:bg-orange-500/30">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <section className="relative py-20 overflow-hidden bg-slate-900 border-b border-slate-800">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="font-heading text-4xl md:text-5xl font-bold text-white mb-6">
-              Garage Door <span className="text-orange-500">Cable Repair</span>
+              Emergency Garage Door <span className="text-orange-500">Cable Repair in Lakewood</span>
             </h1>
             <p className="text-lg text-slate-400 leading-relaxed">
-              Snapped or frayed garage door cables are extremely dangerous. Our Lakewood, CA technicians have the expertise to safely replace your cables and restore balance to your door.
+              Is your garage door hanging crooked or completely stuck? You likely have a snapped lifting cable. Our local Lakewood, CA technicians provide rapid, 24/7 emergency cable replacement using high-strength, aircraft-grade steel.
             </p>
           </div>
         </div>
@@ -39,19 +62,19 @@ export default function CableRepairPage() {
               </div>
             </div>
             <div>
-              <h2 className="font-heading text-3xl font-bold text-white mb-6">Safe & Reliable Cable Replacement</h2>
+              <h2 className="font-heading text-3xl font-bold text-white mb-6">Why Lakewood Trusts Us for Cable Replacement</h2>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-orange-500 flex-shrink-0" />
-                  <span className="text-slate-300"><strong>Emergency Service:</strong> A broken cable can leave your door stuck open or closed. We offer 24/7 emergency repair.</span>
+                  <span className="text-slate-300"><strong>24/7 Emergency Service:</strong> A snapped cable leaves your door dangerously unbalanced or stuck open. We dispatch local technicians immediately to secure your home.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-orange-500 flex-shrink-0" />
-                  <span className="text-slate-300"><strong>Heavy-Duty Cables:</strong> We replace old, worn cables with high-strength, aircraft-grade steel cables for maximum safety.</span>
+                  <span className="text-slate-300"><strong>Aircraft-Grade Steel Cables:</strong> We don&apos;t use cheap wire. We install heavy-duty, galvanized steel cables designed to lift the heaviest custom doors without fraying.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-6 h-6 text-orange-500 flex-shrink-0" />
-                  <span className="text-slate-300"><strong>Full System Inspection:</strong> When cables break, it often affects other parts. We inspect the entire system to ensure everything is aligned.</span>
+                  <span className="text-slate-300"><strong>Complete System Rebalancing:</strong> When a cable breaks, the door goes off-track. We fix the cable, re-spool the drums, and perfectly balance the spring tension.</span>
                 </li>
               </ul>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -69,33 +92,33 @@ export default function CableRepairPage() {
 
       <section className="py-20 bg-slate-900 border-t border-slate-800">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="font-heading text-3xl font-bold text-white mb-8 text-center">The Importance of Garage Door Cables</h2>
+          <h2 className="font-heading text-3xl font-bold text-white mb-8 text-center">What to Know About Garage Door Cables</h2>
           
           <div className="space-y-8">
             <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
-              <h3 className="text-2xl font-bold text-orange-500 mb-4">What Do Garage Door Cables Do?</h3>
-              <p className="text-slate-300 leading-relaxed">
-                Garage door cables work in tandem with the springs to safely lift and lower the heavy door. While the springs provide the tension and lifting power, the cables are the physical connection that pulls the door up. If a spring breaks, safety cables (on extension spring systems) prevent the spring from flying across the garage. If a lifting cable snaps, the door will become unbalanced, crooked, or completely stuck.
-              </p>
-            </div>
-
-            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
-              <h3 className="text-2xl font-bold text-orange-500 mb-4">Signs of Cable Wear and Tear</h3>
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">Signs Your Garage Door Cable is Broken or Failing</h3>
               <p className="text-slate-300 mb-4 leading-relaxed">
-                Catching cable issues early can prevent a catastrophic failure. Look out for these warning signs:
+                Catching cable issues early can prevent a catastrophic failure. Look out for these warning signs in your Lakewood garage:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-slate-300">
-                <li><strong>Fraying:</strong> If you see individual wire strands breaking or fraying, the cable is nearing the end of its life.</li>
-                <li><strong>Rust and Corrosion:</strong> Rust weakens the steel, making it brittle and prone to snapping.</li>
-                <li><strong>Slack or Loose Cables:</strong> If the cables are hanging loosely when the door is open, the tension is incorrect.</li>
-                <li><strong>Uneven Door:</strong> If one side of the door sits higher than the other, a cable may have stretched or slipped off the drum.</li>
+                <li><strong>Crooked Door:</strong> If one side of the door sits higher than the other, a cable has likely snapped or slipped off the drum.</li>
+                <li><strong>Fraying or Splintering:</strong> If you see individual wire strands breaking around the bottom bracket, the cable is nearing the end of its life.</li>
+                <li><strong>Slack or Loose Wire:</strong> If the cables are hanging loosely when the door is open, the tension is incorrect and the cable may jump the drum.</li>
+                <li><strong>Door is Stuck:</strong> The motor runs, but the door won&apos;t lift because the physical connection (the cable) is severed.</li>
               </ul>
             </div>
 
             <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
-              <h3 className="text-2xl font-bold text-orange-500 mb-4">Our Cable Replacement Process</h3>
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">What Do Garage Door Cables Actually Do?</h3>
               <p className="text-slate-300 leading-relaxed">
-                When we replace your cables, we don&apos;t just swap the wire. We inspect the entire lifting system. We check the bottom brackets for rust, ensure the cable drums are in good condition, and verify the spring tension is perfectly balanced. We always replace cables in pairs to ensure even lifting and prevent the older cable from snapping shortly after the repair.
+                Garage door cables work in tandem with the torsion springs to safely lift and lower the heavy door. While the springs provide the immense tension and lifting power, the cables are the physical connection that transfers that power to the bottom of the door. If a lifting cable snaps, the door becomes entirely unbalanced and creates a severe safety hazard.
+              </p>
+            </div>
+
+            <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800">
+              <h3 className="text-2xl font-bold text-orange-500 mb-4">Our Professional Cable Replacement Process</h3>
+              <p className="text-slate-300 leading-relaxed">
+                When we replace your cables, we don&apos;t just swap the wire. We inspect the entire lifting system. We check the bottom brackets for rust (common in coastal California climates), ensure the cable drums are un-damaged, and verify the spring tension is perfectly balanced. We <strong>always replace cables in pairs</strong> to ensure even lifting and prevent the older cable from snapping shortly after the repair.
               </p>
             </div>
           </div>

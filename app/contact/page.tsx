@@ -40,7 +40,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-white font-bold text-lg mb-1">Our Location</h4>
-                    <p className="text-slate-400">1234 Repair Way, Suite 100<br/>Lakewood, CA 90712</p>
+                    <p className="text-slate-400">5800 SOUTH STREET<br/>LAKEWOOD, CA 90713</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
