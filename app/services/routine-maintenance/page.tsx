@@ -53,7 +53,7 @@ export default function RoutineMaintenancePage() {
             <div>
               <div className="relative h-96 rounded-2xl overflow-hidden border border-slate-800">
                 <Image 
-                  src="https://images.unsplash.com/photo-1581092335397-9583eb92d232?q=80&w=800&auto=format&fit=crop" 
+                  src="/maintenance.jpg" 
                   alt="Garage Door Maintenance" 
                   fill 
                   className="object-cover"

@@ -53,7 +53,7 @@ export default function OffTrackDoorsPage() {
             <div>
               <div className="relative h-96 rounded-2xl overflow-hidden border border-slate-800">
                 <Image 
-                  src="https://images.unsplash.com/photo-1563298723-dcfebaa392e3?q=80&w=800&auto=format&fit=crop" 
+                  src="/offtrack.jpg" 
                   alt="Off-Track Garage Door Repair" 
                   fill 
                   className="object-cover"

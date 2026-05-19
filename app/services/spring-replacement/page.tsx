@@ -53,7 +53,7 @@ export default function SpringReplacementPage() {
             <div>
               <div className="relative h-96 rounded-2xl overflow-hidden border border-slate-800">
                 <Image 
-                  src="https://images.unsplash.com/photo-1534398079543-7ae6d016b8bf?q=80&w=800&auto=format&fit=crop" 
+                  src="/spring.jpg" 
                   alt="Garage Door Spring Replacement" 
                   fill 
                   className="object-cover"

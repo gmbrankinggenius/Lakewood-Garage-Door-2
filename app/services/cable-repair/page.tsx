@@ -53,7 +53,7 @@ export default function CableRepairPage() {
             <div>
               <div className="relative h-96 rounded-2xl overflow-hidden border border-slate-800">
                 <Image 
-                  src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=800&auto=format&fit=crop" 
+                  src="/cable.jpg" 
                   alt="Garage Door Cable Repair" 
                   fill 
                   className="object-cover"

@@ -53,7 +53,7 @@ export default function OpenerRepairPage() {
             <div>
               <div className="relative h-96 rounded-2xl overflow-hidden border border-slate-800">
                 <Image 
-                  src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop" 
+                  src="/opener.jpg" 
                   alt="Garage Door Opener Repair" 
                   fill 
                   className="object-cover"

@@ -10,42 +10,42 @@ const services = [
     description: 'Snapped spring? We provide same-day torsion and extension spring repair across Lakewood, CA. We install heavy-duty, high-cycle springs (rated for 20,000+ cycles) to safely balance your door and prevent future emergencies.',
     icon: RefreshCw,
     link: '/services/spring-replacement',
-    image: 'https://picsum.photos/seed/garage-spring/800/600'
+    image: '/spring.jpg'
   },
   {
     title: 'Opener Repair & Installation',
     description: 'Motor humming but not moving? Our certified Lakewood technicians fix stripped gears, sensor alignments, and logic boards. We also install ultra-quiet, Wi-Fi-enabled LiftMaster and Chamberlain smart openers.',
     icon: Zap,
     link: '/services/opener-repair',
-    image: 'https://picsum.photos/seed/garage-opener/800/600'
+    image: '/opener.jpg'
   },
   {
     title: 'Emergency Cable Repair',
     description: 'Frayed or snapped garage door cables are a severe safety hazard. We rapidly dispatch local experts to replace broken cables with aircraft-grade steel, restoring proper tension and keeping your Lakewood home secure.',
     icon: Wrench,
     link: '/services/cable-repair',
-    image: 'https://picsum.photos/seed/steel-cable/800/600'
+    image: '/cable.jpg'
   },
   {
     title: 'Off-Track Door Realignment',
     description: 'A crooked or jammed garage door requires immediate professional attention. We offer 24/7 emergency track straightening, roller replacement, and structural realignment for residential garage doors throughout the Lakewood area.',
     icon: ShieldAlert,
     link: '/services/off-track-doors',
-    image: 'https://picsum.photos/seed/garage-track/800/600'
+    image: '/offtrack.jpg'
   },
   {
     title: 'Panel & Section Replacement',
     description: 'Fix dented, cracked, or crashed garage door panels without the cost of a full replacement. We source exact-match sections from major manufacturers to seamlessly restore your home\'s curb appeal and structural integrity.',
     icon: Home,
     link: '/services/panel-replacement',
-    image: 'https://picsum.photos/seed/garage-panel/800/600'
+    image: '/door.jpg'
   },
   {
     title: 'Annual Tune-Up & Maintenance',
     description: 'Prevent costly breakdowns with our comprehensive 25-point safety inspection. Our local service includes professional track lubrication, spring tension adjustment, and sensor testing to ensure your door operates smoothly year-round.',
     icon: Settings,
     link: '/services/routine-maintenance',
-    image: 'https://picsum.photos/seed/maintenance/800/600'
+    image: '/maintenance.jpg'
   },
 ];
 

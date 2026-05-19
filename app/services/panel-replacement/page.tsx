@@ -53,7 +53,7 @@ export default function PanelReplacementPage() {
             <div>
               <div className="relative h-96 rounded-2xl overflow-hidden border border-slate-800">
                 <Image 
-                  src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=800&auto=format&fit=crop" 
+                  src="/door.jpg" 
                   alt="Garage Door Panel Replacement" 
                   fill 
                   className="object-cover"
